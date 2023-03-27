@@ -2,11 +2,13 @@ This is the main mono-repository for the Prognosis web-application source code. 
 
 # File Structure 
 
+```
 .
 └── prognosis-mono/
     ├── api
     ├── web
     └── .gitignore
+```
 
 The ./api directory contains the Python-oriented machine learning application programming interface (API) which handles and receives front-end data to be processed. The processed output will be the result that defines the medical report in the front end graphical user interface (GUI). Requirements to run the Python Flask API server are listed clearly on the requirements.txt file. Python version is Python 3.8.
 
